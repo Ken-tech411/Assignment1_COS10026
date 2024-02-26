@@ -5,6 +5,7 @@
 
 html {
     font-size: 62.5%;
+    scrollbar-width: none;
 }
 
 body {
@@ -150,7 +151,6 @@ p {
     width: 80%;
 }
 
-
 .ds {
     margin-left: 5rem;
     margin-right: 1rem;
@@ -260,6 +260,41 @@ p {
     .button {
         font-size: 1rem;
     }
+
+    .aside {
+        width: 25%;
+        float: right;
+        border: 2px solid white;
+        border-radius: 1rem;
+        font-size: 7px;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    
+    .ds {
+        width: 75%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .ds > p {
+        font-size: 9px;
+    }
+    .jobtitle {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 10px;
+    }
+    
+    .jobdescription {
+        font-size: 9px;
+    }
+    
+    .bulletpoint {
+        font-size: 7px;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 850px) {
@@ -303,5 +338,79 @@ p {
 
     .button {
         font-size: 1.3rem;
+    }
+
+    .aside {
+        width: 25%;
+        float: right;
+        border: 2px solid white;
+        border-radius: 1rem;
+        font-size: 10px;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    
+    .ds {
+        width: 75%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .ds > p {
+        font-size: 13px;
+    }
+
+    .jobtitle {
+        font-size: 1.8rem;
+    }
+    
+    .subtitle {
+        font-size: 13px;
+    }
+    
+    .jobdescription {
+        font-size: 12px;
+    }
+    
+    .bulletpoint {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+    .aside {
+        width: 25%;
+        float: right;
+        border: 2px solid white;
+        border-radius: 1rem;
+        font-size: 15px;
+        margin-right: 10px;
+        padding: 5px;
+    }
+    
+    .ds {
+        width: 75%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .ds > p {
+        font-size: 15px;
+    }
+
+    .jobtitle {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 15px;
+    }
+    
+    .jobdescription {
+        font-size: 14px;
+    }
+    
+    .bulletpoint {
+        font-size: 12px;
     }
 }
