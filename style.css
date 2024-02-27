@@ -6,6 +6,7 @@
 html {
     font-size: 62.5%;
     scrollbar-width: none;
+    background-color: black;
 }
 
 body {
@@ -121,6 +122,20 @@ a {
     font-weight: lighter;
 }
 
+footer {
+    backdrop-filter: blur(2px);
+    color: white;
+    background-color: black;
+}
+.footer {
+    width: 100vw;
+    padding: 5px;
+}
+.footer > p {
+    font-size: 2rem;
+    width: 100vw;
+} 
+
 /* jobs.html */
 .jd {
     display: flex;
@@ -146,19 +161,14 @@ section {
     font-size: 2rem;
 }
 
-p {
-    font-size: 1.5rem;
-    width: 80%;
-}
-
-.ds {
+.ds, .wd {
     margin-left: 5rem;
     margin-right: 1rem;
     width: 75%;
     float: left;
 }
 
-.ds > p {
+.ds, .wd > p {
     font-size: 2rem;
 }
 .jobtitle {
